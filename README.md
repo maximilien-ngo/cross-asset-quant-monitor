@@ -90,4 +90,4 @@ The strategy is compared against a passive S&P 500 Buy & Hold benchmark.
 
 The objective is not to optimize performance, but to illustrate a simple quantitative research workflow:
 
-`Signal → Backtest → Risk Metrics → Benchmark Comparison`
+`Signal -> Backtest -> Risk Metrics -> Benchmark Comparison`
