@@ -91,3 +91,14 @@ The strategy is compared against a passive S&P 500 Buy & Hold benchmark.
 The objective is not to optimize performance, but to illustrate a simple quantitative research workflow:
 
 `Signal -> Backtest -> Risk Metrics -> Benchmark Comparison`
+
+## LVMH Market & Treasury Dashboard
+
+Quantitative analysis of equity performance,
+market volatility and foreign exchange dynamics.
+
+- LVMH vs Euro Stoxx 50
+- 20-day realized volatility
+- EUR/USD exchange rate
+
+![LVMH Dashboard](lvmh_dashboard.png)
