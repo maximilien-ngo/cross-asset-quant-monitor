@@ -50,6 +50,17 @@ Measures how unusual the latest daily return is relative to its recent 20-day di
 
 `Z = (r(t) - mean(r)) / std(r)`
 
+## LVMH Market & Treasury Dashboard
+
+Quantitative analysis of equity performance,
+market volatility and foreign exchange dynamics.
+
+- LVMH vs Euro Stoxx 50
+- 20-day realized volatility
+- EUR/USD exchange rate
+
+![LVMH Dashboard](lvmh_dashboard.png)
+
 ## Example Output
 
 ```text
@@ -92,13 +103,3 @@ The objective is not to optimize performance, but to illustrate a simple quantit
 
 `Signal -> Backtest -> Risk Metrics -> Benchmark Comparison`
 
-## LVMH Market & Treasury Dashboard
-
-Quantitative analysis of equity performance,
-market volatility and foreign exchange dynamics.
-
-- LVMH vs Euro Stoxx 50
-- 20-day realized volatility
-- EUR/USD exchange rate
-
-![LVMH Dashboard](lvmh_dashboard.png)
