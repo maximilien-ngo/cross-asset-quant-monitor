@@ -61,6 +61,18 @@ market volatility and foreign exchange dynamics.
 
 ![LVMH Dashboard](lvmh_dashboard.png)
 
+1. LVMH vs Euro Stoxx 50 – Equity Performance
+
+LVMH significantly underperformed the Euro Stoxx 50, declining approximately 34% while the index gained 26%. This divergence highlights company-specific pressures and relative market weakness.
+
+2. LVMH – 20-Day Annualized Realized Volatility
+
+LVMH experienced several volatility spikes above 45%, reflecting periods of heightened market uncertainty. Volatility subsequently declined to around 20%, suggesting more stable recent price movements.
+
+3. EUR/USD – Foreign Exchange Dynamics
+
+The euro appreciated against the US dollar during 2025 before weakening towards late 2026. These fluctuations highlight the importance of FX risk management and currency hedging for multinational groups such as LVMH.
+
 ## Example Output
 
 ```text
