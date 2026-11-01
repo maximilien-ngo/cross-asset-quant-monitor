@@ -65,29 +65,13 @@ python3 fx_hedging_scenario.py
 ```
 
 The script saves `fx_hedging_scenario.png`. This simulation complements the historical market data dashboard below.
+## FX Hedging Scenario | Corporate Treasury
 
-## LVMH Market & Treasury Dashboard
+A hypothetical treasury case study illustrating how a USD/EUR forward hedge can stabilize the EUR value of future USD receivables. Assumptions: USD 10 million receivable, 1.10 USD/EUR forward rate, full hedge, and no fees or discounting. This is not actual LVMH hedging data.
 
-Quantitative analysis of equity performance,
-market volatility and foreign exchange dynamics.
+![Illustrative USD FX hedging scenario](fx_hedging_scenario.svg)
 
-- LVMH vs Euro Stoxx 50
-- 20-day realized volatility
-- EUR/USD exchange rate
-
-![LVMH Dashboard](lvmh_dashboard.png)
-
-1. LVMH vs Euro Stoxx 50 – Equity Performance
-
-LVMH significantly underperformed the Euro Stoxx 50, declining approximately 34% while the index gained 26%. This divergence highlights company-specific pressures and relative market weakness.
-
-2. LVMH – 20-Day Annualized Realized Volatility
-
-LVMH experienced several volatility spikes above 45%, reflecting periods of heightened market uncertainty. Volatility subsequently declined to around 20%, suggesting more stable recent price movements.
-
-3. EUR/USD – Foreign Exchange Dynamics
-
-The euro appreciated against the US dollar during 2025 before weakening towards late 2026. These fluctuations highlight the importance of FX risk management and currency hedging for multinational groups such as LVMH.
+The blue curve varies with the settlement EUR/USD rate, while the green line shows the fixed EUR value after the illustrative forward hedge. Hedging reduces downside FX exposure but also removes potential upside from favorable currency moves.
 
 ## Example Output
 
