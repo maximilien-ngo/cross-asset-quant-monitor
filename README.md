@@ -50,6 +50,16 @@ Measures how unusual the latest daily return is relative to its recent 20-day di
 
 `Z = (r(t) - mean(r)) / std(r)`
 
+## LVMH | Actual Reported Financial Data
+
+The charts below use **real published LVMH financial data**, not hypothetical company performance or simulated market prices. They highlight long-term revenue development and the resilience of Selective Retailing revenues without concealing periods of decline.
+
+![LVMH actual annual group and selective retailing revenue](lvmh_financial_history.svg)
+
+- **Group revenue (2016–2025):** EUR 37.6bn in 2016, a peak of EUR 86.15bn in 2023, and EUR 80.81bn in 2025. The graph retains the 2020 disruption and the more recent decline.
+- **Selective Retailing revenue (2023–2025):** EUR 17.89bn, EUR 18.26bn, and EUR 18.35bn, respectively, highlighting revenue growth in that business group.
+- **Sources:** [LVMH investor key figures](https://www.lvmh.com/en/investors/key-figures) (2023–2025); [historical group revenue figures](https://pea.fr/societes/lvmh/) (2016–2022). Financial reporting data, not a stock-price comparison.
+
 ## FX Hedging Scenario | Corporate Treasury
 
 A hypothetical treasury case study illustrating how a USD/EUR forward hedge can stabilize the EUR value of future USD receivables. Assumptions: USD 10 million receivable, 1.10 USD/EUR forward rate, full hedge, and no fees or discounting. This is not actual LVMH hedging data.
