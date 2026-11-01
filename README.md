@@ -50,6 +50,22 @@ Measures how unusual the latest daily return is relative to its recent 20-day di
 
 `Z = (r(t) - mean(r)) / std(r)`
 
+## FX Hedging Scenario | Corporate Treasury
+
+A hypothetical treasury case study illustrating how a USD/EUR forward hedge can stabilize the EUR value of future USD receivables. Assumptions: **USD 10 million receivable**, **1.10 USD/EUR forward rate**, full hedge, and no fees or discounting. This is **not** actual LVMH hedging data.
+
+![Illustrative USD FX hedging scenario](fx_hedging_scenario.svg)
+
+The blue curve varies with the settlement EUR/USD rate, while the green line shows the fixed EUR value after the illustrative forward hedge. Hedging reduces downside FX exposure but also removes potential upside from favorable currency moves.
+
+To generate a high-resolution PNG version locally:
+
+```bash
+python3 fx_hedging_scenario.py
+```
+
+The script saves `fx_hedging_scenario.png`. This simulation complements the historical market data dashboard below.
+
 ## LVMH Market & Treasury Dashboard
 
 Quantitative analysis of equity performance,
